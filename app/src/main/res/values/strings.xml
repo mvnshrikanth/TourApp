@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tour App</string>
+
+    <string name="category_malls">Malls</string>
+    <string name="category_museums">Museums</string>
+    <string name="category_nationalparks">National Parks</string>
+    <string name="category_universities">Universities</string>
+
+</resources>
