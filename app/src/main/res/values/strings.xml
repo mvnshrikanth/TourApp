@@ -6,4 +6,16 @@
     <string name="category_nationalparks">National Parks</string>
     <string name="category_universities">Universities</string>
 
+    <string name="npark_wier_farm">Wier Farm National Historic Site</string>
+    <string name="npark_cockaponset">Cockaponset State Forest</string>
+    <string name="npark_topsmead">Topsmead State Forest</string>
+    <string name="npark_enders">Enders State Forest </string>
+    <string name="npark_pachaug">Pachaug State Forest</string>
+
+    <string name="museum_mark_twain">Mark Twain House And Museum</string>
+    <string name="museum_old_state_house">Connecticut Old State House</string>
+    <string name="museum_bush_holley">Bush Holley House</string>
+    <string name="museum_glass_house">The Glass House</string>
+
+
 </resources>
