@@ -3,16 +3,13 @@ package com.android.sunny.tourapp;
 import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
 
-/**
- * Created by Sunny on 11/20/2016.
- */
-
-public class FragmentPagerAdapter extends android.support.v4.app.FragmentPagerAdapter {
+public class CategoryAdapter extends FragmentPagerAdapter {
 
     private Context mContext;
 
-    public FragmentPagerAdapter(Context context, FragmentManager fm) {
+    public CategoryAdapter(Context context, FragmentManager fm) {
         super(fm);
         mContext = context;
     }

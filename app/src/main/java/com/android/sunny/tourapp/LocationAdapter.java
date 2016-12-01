@@ -1,7 +1,6 @@
 package com.android.sunny.tourapp;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -25,7 +24,6 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         mColorResourceId = colorResourceId;
     }
 
-    @NonNull
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
@@ -43,7 +41,13 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         locationTextView.setText(currentLocation.getmLocationId());
 
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image_view);
-        imageView.setImageResource(currentLocation.getmImageResourceId());
+
+        if (currentLocation.hasImage()) {
+            imageView.setImageResource(currentLocation.getmImageResourceId());
+            imageView.setVisibility(View.VISIBLE);
+        } else {
+            imageView.setVisibility(View.GONE);
+        }
 
         View textContainer = listItemView.findViewById(R.id.text_container);
 

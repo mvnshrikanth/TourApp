@@ -12,10 +12,21 @@
     <string name="npark_enders">Enders State Forest </string>
     <string name="npark_pachaug">Pachaug State Forest</string>
 
+    <string name="number_three">three</string>
+
     <string name="museum_mark_twain">Mark Twain House And Museum</string>
-    <string name="museum_old_state_house">Connecticut Old State House</string>
+    <string name="museum_old_state">Connecticut Old State House</string>
     <string name="museum_bush_holley">Bush Holley House</string>
     <string name="museum_glass_house">The Glass House</string>
 
+    <string name="mall_enfield">Enfield Square</string>
+    <string name="mall_buckland">1</string>
+    <string name="mall_holyoke">Holyoke Mall</string>
+    <string name="mall_westfarms">Westfarms</string>
+
+    <string name="university_yale">Yale University</string>
+    <string name="university_UCONN">University of Connceticut</string>
+    <string name="university_wesleyan">Wesleyan University</string>
+    <string name="university_CCSU">Central Connecticut State University</string>
 
 </resources>

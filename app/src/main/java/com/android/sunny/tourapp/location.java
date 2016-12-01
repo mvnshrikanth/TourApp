@@ -6,14 +6,24 @@ package com.android.sunny.tourapp;
 
 public class Location {
 
+    /**
+     * Constant value that represents no image was provided for this word
+     */
+    private static final int NO_IMAGE_PROVIDED = -1;
     private int mLocationId;
-
     private int mLocationAddrsId;
-
-    private int mImageResourceId;
+    /**
+     * Image resource ID for the word
+     */
+    private int mImageResourceId = NO_IMAGE_PROVIDED;
 
     public void word(int locationId, int locationAddrsId, int imageResourceId) {
         mImageResourceId = imageResourceId;
+        mLocationAddrsId = locationAddrsId;
+        mLocationId = locationId;
+    }
+
+    public void word(int locationId, int locationAddrsId) {
         mLocationAddrsId = locationAddrsId;
         mLocationId = locationId;
     }
@@ -28,6 +38,13 @@ public class Location {
 
     public int getmLocationAddrsId() {
         return mLocationAddrsId;
+    }
+
+    /**
+     * Returns whether or not there is an image for this word.
+     */
+    public boolean hasImage() {
+        return mImageResourceId != NO_IMAGE_PROVIDED;
     }
 
 }
