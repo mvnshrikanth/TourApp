@@ -6,6 +6,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 
 /**
@@ -23,7 +26,21 @@ public class UniversitiesFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_universities, container, false);
+        View rootView = inflater.inflate(R.layout.location_list, container, false);
+
+        final ArrayList<Location> locations = new ArrayList<Location>();
+
+        locations.add(new Location(R.string.university_CCSU, R.string.add_university_CCSU, R.drawable.univ_ccsu));
+        locations.add(new Location(R.string.university_UCONN, R.string.add_university_UCONN, R.drawable.univ_uconn));
+        locations.add(new Location(R.string.university_yale, R.string.add_university_yale, R.drawable.univ_yale));
+        locations.add(new Location(R.string.university_wesleyan, R.string.add_mall_westfarms, R.drawable.univ_wesleyan));
+
+        LocationAdapter locationAdapter = new LocationAdapter(getActivity(), locations, R.color.category_universities);
+
+        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        listView.setAdapter(locationAdapter);
+
+        return rootView;
     }
 
 }

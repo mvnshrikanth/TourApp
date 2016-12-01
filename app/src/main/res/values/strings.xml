@@ -1,9 +1,55 @@
 <resources>
-    <string name="app_name">Tour App</string>
 
     <string name="category_malls">Malls</string>
     <string name="category_museums">Museums</string>
     <string name="category_nationalparks">National Parks</string>
     <string name="category_universities">Universities</string>
+
+    <string name="app_name">Tour App</string>
+
+    <string name="npark_wier_farm">Wier Farm National Historic Site</string>
+    <string name="npark_cockaponset">Cockaponset State Forest</string>
+    <string name="npark_topsmead">Topsmead State Forest</string>
+    <string name="npark_enders">Enders State Forest </string>
+    <string name="npark_pachaug">Pachaug State Forest</string>
+
+    <string name="number_three">three</string>
+
+    <string name="museum_mark_twain">Mark Twain House And Museum</string>
+    <string name="museum_old_state">Connecticut Old State House</string>
+    <string name="museum_bush_holley">Bush Holley House</string>
+    <string name="museum_glass_house">The Glass House</string>
+
+    <string name="mall_enfield">Enfield Square</string>
+    <string name="mall_buckland">The Shoppes at Buckland Hills</string>
+    <string name="mall_holyoke">Holyoke Mall</string>
+    <string name="mall_westfarms">Westfarms</string>
+
+    <string name="university_yale">Yale University</string>
+    <string name="university_UCONN">University of Connceticut</string>
+    <string name="university_wesleyan">Wesleyan University</string>
+    <string name="university_CCSU">Central Connecticut State University</string>
+
+    <string name="add_npark_wier_farm">735 Nod Hill Rd, Wilton, CT 06897</string>
+    <string name="add_npark_cockaponset">State Forrest Rd, Chester, CT 06412</string>
+    <string name="add_npark_topsmead">Litchfield, CT 06759</string>
+    <string name="add_npark_enders">Granby, CT 06035 </string>
+    <string name="add_npark_pachaug">219 Ekonk Hill Rd, Voluntown, CT 06384</string>
+
+    <string name="add_museum_mark_twain">351 Farmington Ave, Hartford, CT 06105</string>
+    <string name="add_museum_old_state_house">800 Main St, Hartford, CT 06103</string>
+    <string name="add_museum_bush_holley">39 Strickland Rd, Cos Cob, CT 06807</string>
+    <string name="add_museum_glass_house">199 Elm St, New Canaan, CT 06840</string>
+
+    <string name="add_mall_enfield">90 Elm St, Enfield, CT 06082</string>
+    <string name="add_mall_buckland">194 Buckland Hills Dr, Manchester, CT 06042</string>
+    <string name="add_mall_holyoke">50 Holyoke St, Holyoke, MA 01040</string>
+    <string name="add_mall_westfarms">1500 New Britain Ave, West Hartford, CT 06110</string>
+
+    <string name="add_university_yale">New Haven, CT 06520</string>
+    <string name="add_university_UCONN">Storrs, CT 06269</string>
+    <string name="add_university_wesleyan">45 Wyllys Ave, Middletown, CT 06459</string>
+    <string name="add_university_CCSU">1615 Stanley Street, New Britain, CT 06053</string>
+
 
 </resources>
