@@ -28,7 +28,10 @@ public class MallsFragment extends Fragment {
 
         final ArrayList<Location> locations = new ArrayList<Location>();
 
-        //locations.add(new Location(R.string.number_three,R.string.number_three));
+        locations.add(new Location(R.string.mall_buckland, R.string.add_mall_buckland));
+        locations.add(new Location(R.string.mall_enfield, R.string.add_mall_enfield));
+        locations.add(new Location(R.string.mall_holyoke, R.string.add_mall_holyoke));
+        locations.add(new Location(R.string.mall_westfarms, R.string.add_mall_westfarms));
 
         LocationAdapter locationAdapter = new LocationAdapter(getActivity(), locations, R.color.category_malls);
 

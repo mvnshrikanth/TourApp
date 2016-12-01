@@ -6,10 +6,10 @@ package com.android.sunny.tourapp;
 
 public class Location {
 
+    private static final int NO_IMAGE_PROVIDED = -1;
     /**
      * Constant value that represents no image was provided for this word
      */
-    private static final int NO_IMAGE_PROVIDED = -1;
     private int mLocationId;
     private int mLocationAddrsId;
     /**
@@ -17,13 +17,13 @@ public class Location {
      */
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
-    public void word(int locationId, int locationAddrsId, int imageResourceId) {
+    public Location(int locationId, int locationAddrsId, int imageResourceId) {
         mImageResourceId = imageResourceId;
         mLocationAddrsId = locationAddrsId;
         mLocationId = locationId;
     }
 
-    public void word(int locationId, int locationAddrsId) {
+    public Location(int locationId, int locationAddrsId) {
         mLocationAddrsId = locationAddrsId;
         mLocationId = locationId;
     }

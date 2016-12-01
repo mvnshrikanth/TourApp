@@ -30,7 +30,10 @@ public class UniversitiesFragment extends Fragment {
 
         final ArrayList<Location> locations = new ArrayList<Location>();
 
-        //locations.add(new Location(R.string.number_three, R.string.number_three));
+        locations.add(new Location(R.string.university_CCSU, R.string.add_university_CCSU));
+        locations.add(new Location(R.string.university_CCSU, R.string.add_university_UCONN));
+        locations.add(new Location(R.string.university_yale, R.string.add_university_yale));
+        locations.add(new Location(R.string.university_wesleyan, R.string.add_mall_westfarms));
 
         LocationAdapter locationAdapter = new LocationAdapter(getActivity(), locations, R.color.category_universities);
 

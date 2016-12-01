@@ -31,7 +31,10 @@ public class NationalParksFragment extends Fragment {
 
         final ArrayList<Location> locations = new ArrayList<Location>();
 
-        //locations.add(new Location(R.string.number_three, R.string.number_three));
+        locations.add(new Location(R.string.npark_cockaponset, R.string.add_npark_cockaponset));
+        locations.add(new Location(R.string.npark_enders, R.string.add_npark_enders));
+        locations.add(new Location(R.string.npark_pachaug, R.string.add_npark_pachaug));
+        locations.add(new Location(R.string.npark_topsmead, R.string.add_npark_topsmead));
 
         LocationAdapter locationAdapter = new LocationAdapter(getActivity(), locations, R.color.category_nationalparks);
 
