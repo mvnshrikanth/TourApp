@@ -30,10 +30,10 @@ public class MuseumsFragment extends Fragment {
 
         final ArrayList<Location> locations = new ArrayList<Location>();
 
-        locations.add(new Location(R.string.museum_bush_holley, R.string.add_museum_bush_holley));
-        locations.add(new Location(R.string.museum_glass_house, R.string.add_museum_glass_house));
-        locations.add(new Location(R.string.museum_mark_twain, R.string.add_museum_mark_twain));
-        locations.add(new Location(R.string.museum_old_state, R.string.add_museum_old_state_house));
+        locations.add(new Location(R.string.museum_bush_holley, R.string.add_museum_bush_holley, R.drawable.museum_bush_holley));
+        locations.add(new Location(R.string.museum_glass_house, R.string.add_museum_glass_house, R.drawable.museum_glass_house));
+        locations.add(new Location(R.string.museum_mark_twain, R.string.add_museum_mark_twain, R.drawable.museum_twain_house));
+        locations.add(new Location(R.string.museum_old_state, R.string.add_museum_old_state_house, R.drawable.museum_old_state_house));
 
         LocationAdapter locationAdapter = new LocationAdapter(getActivity(), locations, R.color.category_museum);
 
